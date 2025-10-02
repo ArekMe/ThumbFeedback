@@ -1,0 +1,13 @@
+{
+    "@metadata": {
+        "authors": ["Arkadiusz Mehlich"]
+    },
+    "thumbfeedback": "Thumb Feedback",
+    "thumbfeedback-desc": "Simple article rating system with thumbs and comments",
+    "specialpages-group-thumbfeedback": "Feedback",
+    "thumbfeedback-placeholder": "Rate the article and submit your feedback.\nDid you find what you were looking for?",
+    "thumbfeedback-submit": "Submit",
+    "thumbfeedback-popup-success": "Thank you for your feedback",
+    "thumbfeedback-error-empty": "Please select a vote or enter a comment.",
+    "thumbfeedback-error-save": "Error saving feedback!"
+}

@@ -1,0 +1,13 @@
+{
+    "@metadata": {
+        "authors": ["Arkadiusz Mehlich"]
+    },
+    "thumbfeedback": "Ocena artykułów",
+    "thumbfeedback-desc": "Prosty system oceny stron łapkami i komentarzem",
+    "specialpages-group-thumbfeedback": "Informacje zwrotne",
+    "thumbfeedback-placeholder": "Oceń artykuł i prześlij opinię.\nCzy znalazłeś to czego szukałeś?",
+    "thumbfeedback-submit": "Wyślij",
+    "thumbfeedback-popup-success": "Dziękuję za opinię",
+    "thumbfeedback-error-empty": "Wybierz głos lub wpisz komentarz.",
+    "thumbfeedback-error-save": "Błąd zapisu!"
+}

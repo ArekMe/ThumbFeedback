@@ -1,0 +1,61 @@
+{
+    "name": "ThumbFeedback",
+    "version": "1.0.1",
+    "author": "Arkadiusz Mehlich",
+    "descriptionmsg": "Prosty system oceny stron łapkami i komentarzem",
+    "type": "other",
+
+    "AutoloadClasses": {
+        "ThumbFeedback": "ThumbFeedback.php",
+        "ApiThumbFeedback": "api/ApiThumbFeedback.php",
+        "ThumbFeedback\\SpecialThumbFeedback": "includes/SpecialThumbFeedback.php"
+    },
+
+    "Hooks": {
+        "BeforePageDisplay": "ThumbFeedback::onBeforePageDisplay",
+        "LoadExtensionSchemaUpdates": "ThumbFeedback::onSchemaUpdate"
+    },
+
+    "APIModules": {
+        "thumbfeedback": "ApiThumbFeedback"
+    },
+
+    "SpecialPages": {
+        "ThumbFeedback": "ThumbFeedback\\SpecialThumbFeedback"
+    },
+
+    "SpecialPageGroups": {
+        "ThumbFeedback": "thumbfeedback"
+    },
+
+    "ResourceModules": {
+        "ext.ThumbFeedback": {
+            "scripts": [
+                "modules/ThumbFeedback.js"
+            ],
+            "styles": [
+                "modules/ThumbFeedback.css"
+            ],
+            "localBasePath": "",
+            "remoteExtPath": "ThumbFeedback",
+            "targets": [
+                "desktop",
+                "mobile"
+            ],
+            "dependencies": [
+			    "mediawiki.jqueryMsg",
+                "mediawiki.api",
+                "mediawiki.user",
+                "mediawiki.util"
+            ]
+        }
+    },
+
+    "MessagesDirs": {
+        "ThumbFeedback": [
+            "i18n"
+        ]
+    },
+
+    "manifest_version": 2
+}
